@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #75cac7; /* Azul vibrante */
-    --secondary-color: #60a5fa; /* Azul más claro */
+    --primary-color: #0dd127; /* Azul vibrante */
+    --secondary-color: #044da7; /* Azul más claro */
     --accent-color: #f87171; /* Rojo suave para acentos */
     --text-color: #333;
     --light-bg: #e4d6d6;
@@ -9,6 +9,7 @@
     --border-color: #e2e8f0;
     --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
     --shadow-medium: 0 10px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 * {
@@ -67,4 +68,7 @@ header nav ul li a {
 }
  header nav a:hover{
     color: var(--secondary-color)
+ }
+ footer{
+    color: #2c1092;
  }
